@@ -2,11 +2,10 @@ import os
 import asyncio
 import hashlib
 from telegram import Bot, Update
-from telegram.ext import Application, CommandHandler, MessageHandler, filters
+from telegram.ext import Application, CommandHandler
 from telegram.error import TelegramError
 from colorama import Fore, Style, init
 from pymongo import MongoClient
-import time
 
 # Initialize colorama
 init(autoreset=True)
