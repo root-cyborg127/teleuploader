@@ -124,7 +124,7 @@ async def main():
     ]
     chat_id = '-1002421938077'  # Your group chat ID
     folder_path = 'D:\\TeraBoxDownload\\10-10-2024 indian'  # Your video folder path
-    caption = f'@Thankkanchettan_bot 👨‍💻'  # Optional caption for each video
+    caption = uploaded_videos_count # Optional caption for each video
 
     # Create the Application (telegram bot handler)
     application = Application.builder().token(bot_tokens[0]).build()
